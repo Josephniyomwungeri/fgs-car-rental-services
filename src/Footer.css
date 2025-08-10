@@ -1,0 +1,123 @@
+.footer {
+  background-color: #025e36;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  margin-top: 10px;
+  height: 50px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+  text-decoration: none;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: none;
+  color: #a5cf4c;
+}
+
+#footer-bottom {
+  background-color: #a5cf4c;
+  color: #003300;
+  /* text-align: center; */
+  padding: 15px;
+  margin-left: -1px;
+}
+.footer .social-icon {
+  color: #fff;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  padding: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+  
+}
+.social-footer{
+  margin-top: -50px;
+  margin-left: 1270px;
+}
+.footer .social-icon:hover {
+  background: #003300;
+  color: white;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  background: #fff;
+  border: none;
+  color: #000;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  transition: background 0.3s;
+}
+
+.scroll-to-top:hover {
+  background: #003300;
+  color: #fff;
+}
+#sub{
+  margin-right: 0;
+}
+#subscribe{
+  background: #8dc73f;
+  margin-top: -20px;
+
+}
+#forms{
+  width: 250px;
+  text-align: center;
+}
+#our{
+  color: white;
+}
+#follow{
+  color: white;
+ 
+}
+#follow:hover{
+  color: #003300;
+ 
+
+}

@@ -1,0 +1,28 @@
+.manage-profile {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .profile-card {
+    background-color: #fff;
+    
+  }
+  
+  .profile-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .card h6 {
+    font-weight: 600;
+  }
+  
+  .card-body p {
+    margin-bottom: 0.5rem;
+  }
+ 
+  .profile-card{
+    width: 800px;
+    margin-left:-430px;
+    margin-top: 50px;
+  }

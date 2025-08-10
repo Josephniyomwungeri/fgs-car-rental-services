@@ -1,0 +1,97 @@
+.contact-page {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .contact-card {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .icon-box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8dc73f;
+  }
+  
+  /* Scroll to top */
+  .scroll-to-top-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    z-index: 1000;
+    transition: all 0.3s ease;
+  }
+  .scroll-to-top-btn:hover {
+    background: #eee;
+  }
+  #post{
+     border-color: #8dc73f;
+     margin-left: 450px;
+     border-width: 2px;
+  }
+  #post:hover{
+    color: #fafbf8;
+    background-color: #8dc73f;
+ }
+
+  #getintouch{
+    color: #8dc73f;
+    font-size: 20px;
+   margin-top: 30px; 
+
+
+  }
+
+  .subscribe-section {
+    background-color: #8dc73f;
+    /* background-image: url('/path-to-your-silhouette-background.png'); Optional */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .subscribe-section h3 {
+    font-size: 24px;
+  }
+  #sub{
+    color: white;
+    border-color: #046333;
+    border-width: 3px;
+    
+  }
+  #sub:hover{
+    background-color: #046333;
+  }
+  
+  @media (max-width: 768px) {
+    .subscribe-section {
+      text-align: center;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .subscribe-section h3 {
+      font-size: 20px;
+    }
+  
+    .subscribe-section form {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  
